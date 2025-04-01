@@ -1,0 +1,57 @@
+/* 1. 统一设置盒模型为 border-box */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. 清除所有元素的默认边距和填充 */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* 3. 清除列表的默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4. 清除图片的默认样式 */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* 5. 清除表单元素的默认样式 */
+button,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  outline: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 6. 移除链接的下划线，并设置颜色继承 */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 7. 去除表格的默认边框和间距 */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 8. 设置全局字体 */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+}
